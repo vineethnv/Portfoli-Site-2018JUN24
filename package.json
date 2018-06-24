@@ -4,12 +4,14 @@
     "description": "A portfoli site to display some of my own works",
     "main": "index.html",
     "devDependencies": {
-        "node-sass": "^4.0.0"
+        "node-sass": "^4.0.0",
+        "pug": "^2.0.0"
     },
     "scripts": {
-        "env": "env",
         "test": "No test specified",
-        "sass": "node-sass -w _sass/main.sass css/main.css --output-style compressed"
+        "sass": "node-sass -w _sass/main.sass css/main.css --output-style compressed",
+        "pugc": "pug --output-style compressed -o ./ _pug/*.pug --watch --pretty",
+        "watch": "npm run sass | npm run pugc"
     },
     "author": "Vineeth N V",
     "license": "ISC"
