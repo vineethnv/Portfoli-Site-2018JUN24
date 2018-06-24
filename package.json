@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-site-2018jun24",
+  "version": "1.0.0",
+  "description": "A portfoli site to display some of my own works",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vineeth N V",
+  "license": "ISC"
+}
